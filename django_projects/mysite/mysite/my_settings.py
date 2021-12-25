@@ -3,9 +3,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django_tutorial',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'PASSWORD': 'anwndsql1111',
+        'HOST': '127.0.0.1',
+        'PORT': 3306
     }
 }
 
