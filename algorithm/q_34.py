@@ -3,7 +3,7 @@ from typing import List
 
 class Solution01:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        results = [d
+        results = []
         prev_elements = []
 
         def dfs(elements):
