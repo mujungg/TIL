@@ -47,12 +47,6 @@ class Solution1:
         dfs('JFK')
         return route[::-1]
 
-class Solution3:
-    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
-        graph = collections.defaultdict(list)
-        for a, b in sorted(tickets):
-            graph[a].append[b
-
 
 a = Solution1()
 print(a.findItinerary(tickets=
